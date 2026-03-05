@@ -1,0 +1,27 @@
+{
+  "templates": [
+    {
+      "name": "equator-homepage",
+      "urls": ["https://equator-design.com/"],
+      "description": "Equator Design homepage with hero carousel, featured case studies, portfolio grid, and insights slider",
+      "blocks": [
+        {
+          "name": "carousel-showcase",
+          "instances": ["section.homepage-hero.slider"]
+        },
+        {
+          "name": "hero-casestudy",
+          "instances": ["section.featured-case-study"]
+        },
+        {
+          "name": "cards-portfolio",
+          "instances": ["section.portfolio-showcase"]
+        },
+        {
+          "name": "cards-insights",
+          "instances": ["section.insights-slider"]
+        }
+      ]
+    }
+  ]
+}

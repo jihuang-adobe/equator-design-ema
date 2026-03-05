@@ -1,0 +1,114 @@
+/* full-width layout */
+.hero-casestudy-container .hero-casestudy-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.hero-casestudy {
+  display: flex;
+  flex-direction: column;
+}
+
+/* image column */
+.hero-casestudy > div:first-child {
+  line-height: 0;
+}
+
+.hero-casestudy > div:first-child picture {
+  display: block;
+}
+
+.hero-casestudy > div:first-child img {
+  width: 100%;
+  height: auto;
+  display: block;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+/* text content column */
+.hero-casestudy > div:last-child {
+  padding: 32px 24px;
+}
+
+/* client name - bold text (strong) */
+.hero-casestudy > div:last-child > p:first-child {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: var(--text-color);
+}
+
+/* heading */
+.hero-casestudy h2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: var(--text-color);
+}
+
+/* description paragraph */
+.hero-casestudy > div:last-child > p:not(:first-child, .button-wrapper) {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--dark-color);
+  margin-bottom: 16px;
+}
+
+/* CTA link */
+.hero-casestudy .button-wrapper {
+  margin-top: 16px;
+}
+
+.hero-casestudy a.button:any-link {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-bottom: 2px solid var(--text-color);
+  border-radius: 0;
+  padding: 4px 0;
+  background-color: transparent;
+  color: var(--text-color);
+}
+
+.hero-casestudy a.button:any-link:hover {
+  border-bottom-color: var(--link-hover-color);
+  color: var(--link-hover-color);
+}
+
+/* desktop: side-by-side layout */
+@media (width >= 900px) {
+  .hero-casestudy {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .hero-casestudy > div:first-child {
+    flex: 1 1 55%;
+    min-width: 0;
+  }
+
+  .hero-casestudy > div:first-child img {
+    aspect-ratio: auto;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hero-casestudy > div:last-child {
+    flex: 1 1 45%;
+    padding: 48px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero-casestudy h2 {
+    font-size: 32px;
+  }
+}

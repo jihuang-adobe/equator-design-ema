@@ -1,0 +1,38 @@
+{
+  "variantName": "cards-portfolio",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-04T23:55:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://equator-design.com/",
+    "originPage": "Homepage - packaging design agency",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "portfolio-grid",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + linked title per card",
+    "buttonCount": 0,
+    "imageCount": 4
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "portfolio work grids",
+      "project showcase galleries",
+      "image-heavy card grids with minimal text"
+    ],
+    "notSuitableFor": [
+      "text-heavy feature cards",
+      "cards with long descriptions"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-04T23:55:00.000Z"
+  }
+}

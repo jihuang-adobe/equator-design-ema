@@ -1,0 +1,38 @@
+{
+  "variantName": "carousel-showcase",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-03-04T23:55:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://equator-design.com/",
+    "originPage": "Homepage - packaging design agency",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "hero-showcase",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image slides rotating",
+    "buttonCount": 0,
+    "imageCount": 9
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "homepage hero image showcases",
+      "product gallery slideshows",
+      "portfolio image rotators"
+    ],
+    "notSuitableFor": [
+      "text-heavy carousels with descriptions",
+      "testimonial sliders"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-04T23:55:00.000Z"
+  }
+}
